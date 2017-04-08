@@ -1,0 +1,351 @@
+/* CSS Document */
+
+.top-body-link, .top-body-link a {
+    color:#7a7a7a;
+    font-size:11px;
+    text-decoration:none !important;
+	font-weight:normal;
+}
+.top-body-link a:hover {
+    text-decoration:underline !important;
+}
+
+.quiz-question-num{float:left;width:28px;height:28px;background:url("../images/g1.gif.html");text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:4px; margin-right:4px; color:#999}
+.number{float:left;width:360px; padding:0px; margin:0px;}
+.number ul{width:360px; padding:0px; margin:0px; float:left;}
+.number ul li{float:left;width:28px;height:28px;background:url("../images/yellow.png");text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+.number ul li a{float:left;width:28px;height:28px;background:url("../images/yellow.png");text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+.number ul li a:hober{float:left;width:28px;height:28px;background:url("../images/blue.png");text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+.number .active{float:left;width:28px;height:28px;background:url("../images/blue.png");text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+
+.number1{float:left;width:26px;height:28px;background:url("../images/yellow.png") center top no-repeat;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:1px; margin-right:1px; color:#000000; list-style-type:none;}
+ .number1 span{float:left;width:26px;height:28px;background:url("../images/blue.png") center top no-repeat;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:0px; margin-right:0px; color:#000000; list-style-type:none;}
+.right-text{float:left; width:350px;text-align:left;line-height:18px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; padding-left:5px; margin:0px; color:#000000; list-style-type:none;}
+.clear{float:left; width:8px;}
+
+.number-white{float:left;width:26px;height:28px;background:url("../images/yellow.png") center top no-repeat;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#ffffff; list-style-type:none;}
+.number-white span{float:left;width:26px;height:28px;background:url("../images/blue.png") center top no-repeat;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:0px; margin-right:0px; color:#000000; list-style-type:none;}
+
+
+.content-border{
+	background-color:fdfdfd;
+	border:3px solid #d8d8d8;
+	margin:0;
+	padding:5px;
+}
+
+.radio-buttn{
+    width:170px;
+	padding-left:38px;
+	margin:0px;
+	float:left;
+	border:0px solid red;
+}
+
+.answer-box{
+	margin:5px;
+	padding:5px;
+	border:0px solid red;
+}
+.selected-box{float:left;text-align:left;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; padding:0px; margin:0px; color:#000000; list-style-type:none;}
+
+
+.selected-box ul{ padding:0px; margin:0px; float:left;}
+.selected-box ul li{float:left;height:28px;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+.selected-box ul li a{float:left;height:28px;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+.selected-box ul li a:hober{float:left;height:28px;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#000000; list-style-type:none;}
+
+.answer-box h5{float:left;text-align:left;line-height:27px;font-weight:bold; font-size:15px;font-family:Arial, Helvetica, sans-serif; padding:0px; margin:0px; color:#000000; list-style-type:none;}
+.answer-box .edit{
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#017bad;
+	line-height:15px;
+	padding:2px 0 0 2px;
+	margin:0;
+}
+.answer-box .edit a{color:#c0030d;}
+
+
+.answer-box-common{
+	width:430px;
+	margin-top:10px;
+	padding:8px;
+	border:0px solid red;
+	float:left;
+}
+
+.result-box{
+    width:240px;
+	padding-left:2px;
+	padding-top:5px;
+	margin:0px;
+	text-align:left;
+	float:left;
+	border:0px solid red;
+}
+
+.caption-text {
+font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	 color:#017bad;
+	line-height:15px;
+	padding-top:3px;
+	margin:0;
+}
+
+/*css added on 24-01-11*/
+
+.outer-div{
+    width:200px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	border:0px solid red;
+}
+
+.inner-div-left{
+    width:20px;
+	padding:0px;
+	padding-top:2px;
+	padding-bottom:3px;
+	margin:0px;
+	float:left;
+	border:0px solid red;
+}
+.inner-div-right{
+    width:180px;
+	padding:0px;
+	padding-top:4px;
+	padding-bottom:3px;
+	margin:0px;
+	float:left;
+	border:0px solid red;
+}
+
+
+.bottom-border{
+	margin:0px;
+	padding:0px;
+	border-bottom: dashed 1px #CDCECF;
+	float:left;
+}
+
+.top-blue-heading{
+	color:#028AD1;
+	margin:0px;
+	font-size:15px;
+	font-weight:700;
+	padding:0px;
+}
+.top-blue-heading a{
+color:#028AD1;
+text-decoration:none;
+}
+.top-blue-heading a:hover{
+color:#000000;
+text-decoration:underline;
+}
+
+.answer-box-heading{
+	width:430px;
+	margin:0px;
+	padding:0px;
+	color:#028AD1;
+	font-size:18px;
+	font-weight:bold;
+	border:0px solid red;
+	float:left;
+}
+
+/*css added on 27-01-11*/
+.gray-box-common {
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:470px;
+	border:0px solid red;
+}
+.table-none {
+	background-image:url("../images/i_nav_hover.png.html");
+}
+.new_samp{
+	padding-left:30px;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.para-text{
+	width:430px;
+	margin:0px;
+	border:0px solid red;
+	padding-left:30px;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+}
+.contact-us-text{
+	padding-left:10px;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.bottom-content-text{
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*add for left panel 2011-02-08 */
+.answer-box-LP{
+	margin:2px;
+	padding:2px;
+	border:0px solid red;
+}
+.answer-box-LP h5{float:left;text-align:left;line-height:22px;font-weight:bold; font-size:13px;font-family:Arial, Helvetica, sans-serif; padding:0px; margin:0px; color:#000000; list-style-type:none;}
+.answer-box-LP h3 {
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#017bad;
+	line-height:15px;
+	padding:0px 0 0 0px;
+	margin:0;
+}
+.answer-box-LP h3 a{color:#c0030d;}
+
+.answer-box-common-LP{
+	width:200px;
+	margin-top:5px;
+	padding:2px;
+	border:0px solid red;
+	float:left;
+}
+.right-text-LP{float:right; width:148px;text-align:left;line-height:15px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; padding-left:1px; margin:0px; color:#000000; list-style-type:none;border:0px solid red;}
+.para-text-LP{
+	width:180px;
+	margin:0px;
+	padding-left:2px;
+	line-height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:right;
+}
+.para-text-sub-LP{
+	width:150px;
+	margin:0px;
+	padding-left:20px;
+	line-height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:right;
+}
+.SideBox-LP{
+	width:200px;
+	padding:1px;
+	padding-left:2px;
+	font-size:11px;
+	border:0px solid black;
+	padding-bottom:10px;
+}
+.number-white-LP{float:left;width:26px;height:28px;background:url("../images/yellow.png") center top no-repeat;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:2px; margin-right:2px; color:#ffffff; list-style-type:none;}
+.number-white-LP span{float:left;width:26px;height:28px;background:url("../images/blue.png") center top no-repeat;text-align:center;line-height:27px;font-weight:bold;font-family:Arial, Helvetica, sans-serif; margin-left:0px; margin-right:0px; color:#000000; list-style-type:none;border:0px solid red;}
+/*add 2011-02-11 */
+.need-money{
+	margin:0px;
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#999999;
+}
+.grant-finder{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#0c729c;
+}
+.middle_main_new {
+	width:470px;
+	float:left;
+	min-height:450px;
+	height:auto !important;
+	height:450px;
+	margin-left:5px;
+	margin-right:5px;
+	border:0px solid blue;
+}
+
+table {
+	font-size:small;
+}
+
+.popup-fholder select {
+    width: 185px !important;
+}
+
+/* Industries Pages Styling STARTS */
+
+.industry-title-list {
+    margin: 0;
+    padding: 0;
+}
+
+.industry-title-list a:hover, .industry-title a:hover{
+    text-decoration: none;
+}
+
+
+.industry-title {
+    position: relative;
+    min-height: 60px;
+    margin: 10px 0;
+    list-style-type: none;
+    width: 460px;
+    background: #232323;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.industry-title span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.25em;
+    text-shadow: 2px 2px 2px rgba(23,23,23,0.5);
+    text-transform: uppercase;
+}
+
+.industry-title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+
+    transition: all 0.2s ease;
+    opacity: 0.3;
+}
+
+.industry-title a:hover img {
+    opacity: 0.8;
+}
+
+/* Industries Pages Styling ENDS */
+
+.purpose-title-list {
+    list-style-image: url("../images/arrow-bullet.png.html");
+}
+
+.purpose-title-list > li {
+    font-size: 1.1em;
+    line-height: 1.75;
+}

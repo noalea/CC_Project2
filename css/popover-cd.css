@@ -1,0 +1,240 @@
+@import url("fonts.css");
+
+
+/*body {
+	background: #1C1C1C;
+}*/
+
+.popover-cd {
+	width: 690px;
+	min-height: 185px;
+	background: white;
+	border: 1px solid rgba( 55, 55, 55, 0.2);
+	border-top: 0.313em solid rgba(154, 0, 0, 1);
+	display: inline-block;
+	padding-bottom: 1em;
+	text-align: center;
+	margin: 0 auto;
+	-moz-box-shadow: 0.05em 0.15em 0.25em rgba(55, 55, 55, 0.3);
+	-webkit-box-shadow: 0.05em 0.15em 0.25em rgba(55, 55, 55, 0.3);
+	box-shadow: 0.05em 0.15em 0.25em rgba(55, 55, 55, 0.3);
+}
+
+.popover-cd-heading {
+	font-family: 'Source Sans Pro', sans-serif;
+	min-width: 90%;
+	height: 1.275em;
+	font-size: 16px;
+    font-weight: 700;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 0.5em 0.5em 0em 0.5em;
+	display: inline-block;
+	margin: 0;
+	border-bottom: 1px solid rgba(55, 55, 55, 0.3);
+	display: block;
+	color: rgba(154, 0, 0, 1);
+	margin-bottom: 18px;
+}
+
+.popover-cd p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(55, 55, 55, 1);
+	text-align: left;
+}
+
+b {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.popover-cd .column {
+	width: 45%;
+	min-height:5em;
+	padding: 0.75em;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+
+}
+
+.popover-cd .column h1 {
+	color: rgba(55, 55, 55, 1);
+	font-size: 30px !important;
+	font-weight: 800 !important;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	text-align: center;
+	border-bottom: none;
+}
+
+.popover-cd h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 25px;
+	color: rgba(55, 55, 55, 1);
+	margin: 0;
+	text-align: left;
+}
+
+.popover-cd h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(55, 55, 55, 1);
+	margin: 16px 0 10px 0;
+
+}
+
+.popover-cd .phone-number {
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.popover-cd .input-field {
+	background: rgba(249, 249, 249, 1);
+	border: 1px solid rgba(149, 149, 149, 0.7);
+	border-radius: 6px;
+	width: 100%;
+	max-width: 285px;
+	height: 32px;
+	margin: 8px 0;
+	padding: 0em 0em 0em 0.5em;
+	color: rgba(130, 130, 130, 1);
+	box-shadow: inset 1px 1px 2px rgba(55, 55, 55, 0.4);
+	font-size: 11px;
+	position: relative;
+	display: block;
+}
+
+
+.popover-cd .input-field select {
+    background: transparent;
+    border: 0;
+    height: 32px;
+    margin: 0;
+    padding-left: -0.5em;
+    color: rgba(130, 130, 130, 1);
+    position: relative;
+}
+
+.button-lightgreen {
+	display: block;
+	background: rgba(171, 192, 66, 1);
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+	padding: 0.219em 20px;
+	margin: 0.5em 0;
+	font-size: 1em;
+	line-height: 1.5em;
+	max-width: 292px;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.button-lightgreen:hover {
+	color: #FFFFFF;
+	background: rgba(145, 163, 58, 1);
+}
+
+.popover-cd .icon-employment {
+	background: url('../images/icon-employment.png') no-repeat top right 12px ;
+
+}
+.popover-cd .icon-phone {
+	background: url('../images/icon-phone.png') no-repeat top right 12px;
+
+}
+.popover-cd .icon-mail {
+	background: url('../images/icon-mail.png') no-repeat top right 12px ;
+
+}
+.popover-cd .icon-location {
+	background: url('../images/icon-location.png') no-repeat top right 12px;
+
+}
+.popover-cd .icon-name {
+	background: url('../images/icon-name.png')no-repeat top right 12px;
+
+}
+
+.countdown-timer {
+	background: url('../images/popover-cd-countdown.png') no-repeat;
+	width: 247px;
+	height: 110px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 54px;
+	line-height: 75px;
+	text-align: center;
+	position: relative;
+}
+
+.countdown-timer:after {
+	width: 230px;
+	height: 1px;
+	background: #333333;
+	content: ' ';
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+
+.countdown-timer .digits, .countdown-timer .inactive {
+	display: inline-block;
+	text-align: center;
+	padding: 0 9px;
+}
+
+
+.countdown-timer .inactive {
+	color: rgba(100, 100, 100, 1);
+	padding: 0 14px;
+}
+
+#time-up .warning {
+	color: red;
+	font-size: 12px;
+}
+
+#time-up .cta {
+	font-family: 'Source Sans Pro', sans-serif;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.close-button {
+	position: absolute;
+	top: -65px;
+	right: -30px;
+}
+
+.hidden {
+	display: none;
+}
+

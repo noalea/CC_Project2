@@ -1,0 +1,167 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+body, html {
+  margin: 0;
+  padding: 0; }
+  body .fq-form, html .fq-form {
+    height: 430px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    padding: 0 20px;
+    overflow: hidden; }
+    body .fq-form .fq-top, html .fq-form .fq-top {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid #000; }
+      body .fq-form .fq-top h2, html .fq-form .fq-top h2 {
+        color: #c41410;
+        display: inline-block; }
+      body .fq-form .fq-top .form-close, html .fq-form .fq-top .form-close {
+        float: right;
+        font-size: 20px;
+        border: 0;
+        background: transparent;
+        margin-top: 30px;
+        font-weight: 500; }
+    body .fq-form .fq-left, html .fq-form .fq-left {
+      display: inline-block;
+      float: left;
+      width: 35%; }
+      body .fq-form .fq-left h3, html .fq-form .fq-left h3 {
+        line-height: 30px;
+        font-size: 20px; }
+      body .fq-form .fq-left p, html .fq-form .fq-left p {
+        margin: 20px 0;
+        font-size: 16px;
+        line-height: 26px; }
+      body .fq-form .fq-left b, html .fq-form .fq-left b {
+        font-weight: 600; }
+    body .fq-form .fq-right, html .fq-form .fq-right {
+      float: right;
+      width: 65%;
+      display: inline-block;
+      padding-left: 30px; }
+      body .fq-form .fq-right .fq-inputs, html .fq-form .fq-right .fq-inputs {
+        display: flex;
+        justify-content: space-between; }
+        body .fq-form .fq-right .fq-inputs input, html .fq-form .fq-right .fq-inputs input {
+          border: 0;
+          border-bottom: 2px solid #c41410;
+          padding: 7px 0;
+          font-size: 16px;
+          width: 30%; }
+        body .fq-form .fq-right .fq-inputs input:focus, html .fq-form .fq-right .fq-inputs input:focus {
+          outline: none;
+          border-bottom: 2px solid #000; }
+    body .fq-form .fq-funding .fq-btns, html .fq-form .fq-funding .fq-btns {
+      display: flex;
+      justify-content: space-between; }
+      body .fq-form .fq-funding .fq-btns p, html .fq-form .fq-funding .fq-btns p {
+        width: 50%;
+        border: 2px solid #c41410;
+        background: transparent;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+        float: left;
+        margin: 10px 20px 10px 0px;
+        text-align: center; }
+      body .fq-form .fq-funding .fq-btns p:hover, html .fq-form .fq-funding .fq-btns p:hover {
+        background-color: #c41410;
+        color: #fff;
+        cursor: pointer; }
+    body .fq-form .fq-funding .sent-msg, html .fq-form .fq-funding .sent-msg {
+      opacity: 0;
+      font-size: 14px;
+      display: inline-block;
+      margin-top: 20px;
+      line-height: 20px; }
+    body .fq-form .fq-funding button, html .fq-form .fq-funding button {
+      width: 50%;
+      border: 2px solid #c41410;
+      background: transparent;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 16px;
+      float: left;
+      margin: 10px 20px 10px 0px; }
+    body .fq-form .fq-funding button:hover, html .fq-form .fq-funding button:hover {
+      background-color: #c41410;
+      color: #fff; }
+    body .fq-form .fq-funding button[type="submit"], html .fq-form .fq-funding button[type="submit"] {
+      background-color: #c41410;
+      color: #fff;
+      margin-top: 20px;
+      float: right;
+      width: auto;
+      padding: 10px 40px;
+      font-weight: 500; }
+    body .fq-form .fq-funding button:focus, html .fq-form .fq-funding button:focus {
+      outline: none; }
+  body .floating-footer, html .floating-footer {
+    width: 900px;
+    height: 140px;
+    position: fixed;
+    z-index: 9999;
+    background-color: #c41410;
+    bottom: 0;
+    font-family: "Poppins", sans-serif; }
+    body .floating-footer .floating-close, html .floating-footer .floating-close {
+      border-radius: 50%;
+      float: right;
+      margin-top: -13px;
+      margin-right: 10px;
+      background-color: white;
+      border: 1px solid #777;
+      padding: 5px 10px;
+      color: #777; }
+    body .floating-footer .form, html .floating-footer .form {
+      color: #fff;
+      padding: 20px 10px; }
+      body .floating-footer .form .floating-txt, html .floating-footer .form .floating-txt {
+        font-size: 14px;
+        margin-bottom: 25px; }
+      body .floating-footer .form .floating-inputs, html .floating-footer .form .floating-inputs {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 60%;
+        float: left; }
+        body .floating-footer .form .floating-inputs input, html .floating-footer .form .floating-inputs input {
+          border: 0;
+          border-bottom: 2px solid #fff;
+          padding: 7px 0;
+          font-size: 14px;
+          width: 30%;
+          background-color: #c41410; }
+        body .floating-footer .form .floating-inputs input[type="text"]::placeholder, html .floating-footer .form .floating-inputs input[type="text"]::placeholder {
+          color: #d6d2d2; }
+        body .floating-footer .form .floating-inputs input:focus, html .floating-footer .form .floating-inputs input:focus {
+          outline: none;
+          border-bottom: 2px solid #000; }
+      body .floating-footer .form button, html .floating-footer .form button {
+        border: 2px solid #fff;
+        background: #fff;
+        border-radius: 500px;
+        padding: 7px 30px;
+        font-size: 14px;
+        float: left;
+        margin-left: 40px;
+        color: #c41410; }
+      body .floating-footer .form button:hover, html .floating-footer .form button:hover {
+        background-color: #e6e6e6;
+        border-color: #e6e6e6; }
+
+.selected-fq-btn {
+  background-color: #c41410 !important;
+  color: #fff !important; }
+
+/*# sourceMappingURL=master.css.map */
